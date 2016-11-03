@@ -2,16 +2,21 @@
   box-sizing: border-box; }
 
 .strips {
-  min-height: 100vh;
+  min-height: 85vh;
   text-align: center;
   overflow: hidden;
+  color: white; }
+
+.main-title {
+  background: #993380;
+  min-height: 15vh;
   color: white; }
 
 .strips__strip {
   will-change: width, left, z-index, height;
   position: absolute;
   width: 33.333333vw;
-  min-height: 100vh;
+  min-height: 90vh;
   overflow: hidden;
   cursor: pointer;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1); }
@@ -107,7 +112,8 @@
   top: 0 !important;
   left: 0 !important;
   z-index: 3;
-  cursor: default; }
+  cursor: default;
+  min-height: 100vh; }
   .strips__strip--expanded .strip__content:hover:before {
     transform: skew(-30deg) scale(1) translate(0, 0);
     opacity: 0.05; }
