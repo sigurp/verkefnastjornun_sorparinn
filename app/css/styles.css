@@ -59,14 +59,6 @@ dt {
     .strips__strip:nth-child(3) {
       top: 40vh;
       left: 0;
-      width: 100%; }
-    .strips__strip:nth-child(4) {
-      top: 60vh;
-      left: 0;
-      width: 100%; }
-    .strips__strip:nth-child(5) {
-      top: 80vh;
-      left: 0;
       width: 100%; } }
 
 .strips .strip__content {
@@ -124,7 +116,7 @@ dt {
     opacity: 0; }
   .strips__strip--expanded .strip__inner-text {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1); }
+    font-size: 25px; }
 
 @media screen and (max-width: 760px) {
   .strips__strip--expanded {
@@ -172,18 +164,6 @@ dt {
 @keyframes strip3 {
   0% {
     transform: translate3d(0, -100%, 0); }
-  100% {
-    transform: translate3d(0, 0, 0); } }
-
-@keyframes strip4 {
-  0% {
-    transform: translate3d(0, 100%, 0); }
-  100% {
-    transform: translate3d(0, 0, 0); } }
-
-@keyframes strip5 {
-  0% {
-    transform: translate3d(100%, 0, 0); }
   100% {
     transform: translate3d(0, 0, 0); } }
 

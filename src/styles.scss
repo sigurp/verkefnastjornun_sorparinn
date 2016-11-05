@@ -80,18 +80,6 @@ dt {
       left: 0;
       width: 100%;
     }
-
-    &:nth-child(4) {
-      top: 60vh;
-      left: 0;
-      width: 100%;
-    }
-
-    &:nth-child(5) {
-      top: 80vh;
-      left: 0;
-      width: 100%;
-    }
   }
 }
 
@@ -163,7 +151,8 @@ dt {
 
   .strip__inner-text {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    font-size: 25px; // bull hér, translate-ið gerir textann svo blurry :(
+    //transform: translate(-50%, -50%) scale(1);
   }
 }
 
@@ -235,25 +224,6 @@ dt {
   }
 }
 
-@keyframes strip4 {
-  0% {
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes strip5 {
-  0% {
-    transform: translate3d(100%, 0, 0);
-  }
-
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
 
 /* Demo purposes */
 
