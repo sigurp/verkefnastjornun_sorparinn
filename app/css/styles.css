@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box; }
 
+dt {
+  font-size: 20px; }
+
 .strips {
-  min-height: 85vh;
+  min-height: 100vh;
   text-align: center;
   overflow: hidden;
   color: white; }
@@ -16,7 +19,7 @@
   will-change: width, left, z-index, height;
   position: absolute;
   width: 33.333333vw;
-  min-height: 90vh;
+  min-height: 100vh;
   overflow: hidden;
   cursor: pointer;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1); }
