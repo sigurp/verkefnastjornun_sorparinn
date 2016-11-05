@@ -116,6 +116,7 @@ dt {
     opacity: 0; }
   .strips__strip--expanded .strip__inner-text {
     opacity: 1;
+    font-size: 25px; }
 
 @media screen and (max-width: 760px) {
   .strips__strip--expanded {
