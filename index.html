@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Verkefni 4</title>
-    <link rel="stylesheet" href="./app/css/styles.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./app/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- Latest compiled and minified JavaScript -->
 
   </head>
@@ -22,7 +21,8 @@
 
         <h1 class="strip__title" data-name="Dolor">Flöskur og dósir</h1>
         <div class="strip__inner-text">
-          <h2 class="text-left">Umbúðir sem skilagjald fæst fyrir eru allar drykkjarvörur
+          <h1 class="headerTitle">Flöskur og dósir</h1>
+          <h2 class="text-center subtitle">Umbúðir sem skilagjald fæst fyrir eru allar drykkjarvörur
 sem hægt er að neyta beint. Til dæmis
 áldósir, plast- og glerflöskur undan
 söfum, gosi og áfengum drykkjum.
@@ -54,19 +54,15 @@ söfum, gosi og áfengum drykkjum.
                 </div>
               </dd>
             </dl>
-            <div class="col-md-6">
-              <p>
-                Kannski fá mynd????
-              </p>
+            <div class="col-md-6 hidden-sm-down">
+            <img class="iconImgBig" src="ecopack/png/plapla.png" alt="ál">
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <p>
-                Kannski fá mynd????
-              </p>
+            <div class="col-md-6 hidden-sm-down">
+            <img class="iconImgBig" src="ecopack/png/gler.png" alt="ál">
             </div>
             <dl class="dl col-md-6">
               <dt class="text-left">
@@ -117,10 +113,8 @@ söfum, gosi og áfengum drykkjum.
                   </dl>
             </dd>
           </dl>
-          <div class="col-md-6">
-            <p>
-              Kannski fá mynd????
-            </p>
+          <div class="col-md-6 hidden-sm-down">
+            <img class="iconImgBig" src="ecopack/png/dolla.png" alt="ál">
           </div>
         </div>
         </div>
@@ -132,15 +126,15 @@ söfum, gosi og áfengum drykkjum.
         <h1 class="strip__title" data-name="Sit">Flokkunarreglur</h1>
         <div class="strip__inner-text">
           
-          <h2 id="Flokkunartaflan">Flokkunartaflan</h2>
-          <h3>Hér má finna leiðbeiningar um hvernig skal flokka allt sorp og hvert skal fara með það!</h3>
+          <h1 class="headerTitle">Flokkunarreglur</h1>
+          <h2 class="subtitle">Hér má finna leiðbeiningar um hvernig skal flokka allt sorp og hvert skal fara með það!</h2>
 
           <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
               <div class="col-sm-12 text-center">
                 <h2>Plast </h2>
-                <img id="plasticImg" src="ecopack/png/plast.png" alt="Plast">
+                <img id="iconImg" src="ecopack/png/plapla.png" alt="Plast">
               </div>
               <dl class="dl">
                 <dt class="text-left">Við flokkum</dt>
@@ -153,7 +147,10 @@ söfum, gosi og áfengum drykkjum.
 
             </div>
               <div class="col-md-6">
-                <h2>Pappír og pappi</h2>
+                <div class="col-sm-12">
+                  <h2>Pappír og pappi</h2>
+                  <img id="iconImg" src="ecopack/png/paper.png" alt="Plast">
+                </div>
                     <dl class="dl">
                         <dt class="text-left">Við flokkum</dt>
                         <dd class="text-left">allar pappírs-og pappaumbúðir, t.d. fernur, pakkningar undan matvælum og pítsukassa, dagblöð og tímarit, auglýsingapóst og prentpappír.</dd>
@@ -167,7 +164,10 @@ söfum, gosi og áfengum drykkjum.
 
             <div class="row">
               <div class="col-md-3">
-                <h2>Lífrænn úrgangur</h2>
+                <div class="col-sm-12">
+                  <h2>Lífrænn úrgangur</h2>
+                  <img id="iconImg" src="ecopack/png/apple.png" alt="Plast">
+                </div>
                     <dl class="dl">
                         <dt class="text-left">Við flokkum</dt>
                         <dd class="text-left">matarleifar og afganga, bréfþurrkur, bleiur, gæludýraúrgang o.s.frv.</dd>
@@ -178,7 +178,10 @@ söfum, gosi og áfengum drykkjum.
                   </dl>
               </div>
               <div class="col-md-3">
-                <h2>Málmar</h2>
+                <div class="col-sm-12">
+                  <h2>Málmar</h2>
+                  <img id="iconImg" src="ecopack/png/dolla.png" alt="Plast">
+                </div>
                     <dl class="dl">
                         <dt class="text-left">Við flokkum</dt>
                         <dd class="text-left">Allar tegundur málma, t.d. járn, kopar, blý, brons, stál, ryðfrítt stál, látún og ál. Niðursuðudósir, álpappír, álbakka og málmlok af krukkum, handverkfæri, sprittkertakoppa, rafmagnsvíra og muni að hluta eða alveg úr málmi.</dd>
@@ -189,7 +192,10 @@ söfum, gosi og áfengum drykkjum.
                   </dl>
               </div>
               <div class="col-md-3">
-                <h2>Gler og steinefni</h2>
+                <div class="col-sm-12">
+                  <h2>Gler og steinefni</h2>
+                  <img id="iconImg" src="ecopack/png/gler.png" alt="Plast">
+                </div>
                     <dl class="dl-">
                         <dt class="text-left">Við flokkum</dt>
                         <dd class="text-left">Allt sem er úr gleri eða er hægt að skilgreina sem óvirk steinefni, sem brotna ekki niður. T.d. glerkrukkur og ílát, spegla, flísar, steinsteypu, grjót, múrsteina, hellur, keramikmuni og postulín.</dd>
@@ -199,7 +205,10 @@ söfum, gosi og áfengum drykkjum.
                         <dd class="text-left">á endurvinnslustöðvar</dd>
                   </dl>
               </div><div class="col-md-3">
-                <h2>Spilliefni og raftæki</h2>
+                <div class="col-sm-12">
+                  <h2>Spilliefni og raftæki</h2>
+                  <img id="iconImg" src="ecopack/png/spilliefni.png" alt="Plast">
+                </div>
                     <dl class="dl">
                         <dt class="text-left">Við flokkum</dt>
                         <dd class="text-left">Rafhlöður, spreybrúsa, hreinsiefni, málningu, olíuefni, ljósaperur, ónýt raftæki o.fl.</dd>
@@ -212,7 +221,10 @@ söfum, gosi og áfengum drykkjum.
           </div>
           <div class="row">
             <div class="col-md-4">
-              <h2>Nytjahlutir</h2>
+              <div class="col-sm-12">
+                <h2>Nytjahlutir</h2>
+                <img id="iconImg" src="ecopack/png/taeki.png" alt="Plast">
+              </div>
                   <dl class="dl">
                       <dt class="text-left">Við flokkum</dt>
                       <dd class="text-left">Alla hluti sem enn eru nothæfir og seljanlegir, t.d. húsgögn, raftæki, borðbúnað, bækur, geisladiska, leikföng o.s.frv.</dd>
@@ -223,7 +235,10 @@ söfum, gosi og áfengum drykkjum.
                 </dl>
             </div>
             <div class="col-md-4">
-              <h2>Föt og klæði</h2>
+              <div class="col-sm-12">
+                <h2>Föt og klæði</h2>
+                <img id="iconImg" src="ecopack/png/shirts.png" alt="Plast">
+              </div>
                   <dl class="dl">
                       <dt class="text-left">Við flokkum</dt>
                       <dd class="text-left">Allar vefnaðarvörur, t.d. fatnað, yfirhafnir, gluggatjöld, áklæði, teppi, rúmfatnað, handklæði, sængur, kodda, púða o.fl. Efnið má vera rifið og slitið.</dd>
@@ -234,7 +249,10 @@ söfum, gosi og áfengum drykkjum.
                 </dl>
             </div>
             <div class="col-md-4">
-              <h2>Umbúðir með skilagjaldi</h2>
+              <div class="col-sm-12">
+                <h2>Umbúðir með skilagjaldi</h2>
+                <img id="iconImg" src="ecopack/png/plast.png" alt="Plast">
+              </div>
                   <dl class="dl">
                       <dt class="text-left">Við flokkum</dt>
                       <dd class="text-left">Umbúðir fyrir alla drykkjarvörur sem hægt er að neyta beint, t.d. áldósir, plast- og glerflöskur undan söfum, gosi og áfengum drykkjum. Þó ekki mjólkurvörur!</dd>

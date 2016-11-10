@@ -179,6 +179,9 @@ body {
 h1, h2 {
   font-weight: 300; }
 
+.subtitle {
+  font-size: 20px; }
+
 .fa {
   font-size: 30px;
   color: white; }
@@ -190,9 +193,14 @@ h2 {
 p {
   margin: 0 0 16px; }
 
-#plasticImg {
+.iconImgBig {
+  margin-top: 50px;
+  height: 100px;
+  width: auto; }
+
+#iconImg {
   width: 40px;
   height: auto; }
 
-#Flokkunartaflan {
+.headerTitle {
   margin-top: 10%; }
