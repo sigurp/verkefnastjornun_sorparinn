@@ -16,6 +16,7 @@ dt {
 	color: white;
 }
 
+
 .strips__strip {
   will-change: width, left, z-index, height;
   position: absolute;
@@ -267,4 +268,13 @@ h2 {
 
 p {
   margin: 0 0 16px;
+}
+
+#plasticImg{
+  width: 40px;
+  height: auto;
+}
+
+#Flokkunartaflan{
+  margin-top: 10%;
 }
