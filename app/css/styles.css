@@ -180,7 +180,8 @@ h1, h2 {
   font-weight: 300; }
 
 .subtitle {
-  font-size: 20px; }
+  font-size: 20px;
+  margin-bottom: 50px; }
 
 .fa {
   font-size: 30px;
@@ -204,3 +205,6 @@ p {
 
 .headerTitle {
   margin-top: 10%; }
+
+.subsubheader {
+  font-size: 25px; }
