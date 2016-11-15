@@ -60,21 +60,3 @@ var Expand = function () {
 }();
 
 Expand.init();
-
-function scrollToTheTop() {
-  console.log("scrolling top");
-  var artic = $("article");
-  console.log(artic);
-  artic.scrollTop(0);
-  for (var i in artic) {
-    if (i == artic.length - 1) {
-      break;
-    }
-    console.log(i);
-    console.log(artic[i].firstChild);
-  }
-
-  $(window).scrollTop(0);
-}
-
-$("#closeButton").click(scrollToTheTop);
